@@ -18,7 +18,9 @@ export default class App extends Component{
 
   render(){
     return(
-      {this.state.people.map(person=> person.name)}
+      <div>
+        {this.state.people.map(person=> person.name)}
+        </div>
     )
   }
 }
