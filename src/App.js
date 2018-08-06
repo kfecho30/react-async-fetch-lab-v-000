@@ -19,7 +19,7 @@ export default class App extends Component{
   render(){
     return(
       <div>
-        {this.state.people.map(person=> person.name)}
+        {this.state.spacePeople.map(person=> person.name)}
       </div>
     )
   }
