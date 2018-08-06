@@ -20,7 +20,7 @@ export default class App extends Component{
     return(
       <div>
         {this.state.people.map(person=> person.name)}
-        </div>
+      </div>
     )
   }
 }
